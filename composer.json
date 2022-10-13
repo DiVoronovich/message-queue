@@ -2,7 +2,7 @@
     "name": "solid-mage/message-queue",
     "description": "Module fixes \"Connection \"default\" is not defined\" error when php bin/magento setup:install",
     "require": {
-        "php": "~7.3.0||~7.4.0",
+        "php": "^8.1",
         "magento/framework": "*",
         "magento/module-message-queue": "^100.4",
         "magento/magento-composer-installer": "*"
@@ -11,7 +11,7 @@
 
     },
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "license": [
         "GPL-3.0"
     ],
